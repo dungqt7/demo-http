@@ -1,0 +1,10 @@
+<div class="parent">
+    <h2>AfterContent</h2>
+    <div *ngIf="show">
+        <app-after-content>
+            <app-child></app-child>
+        </app-after-content>
+        <h4>-- AfterContent Logs --</h4>
+        <p><button (click)="reset()"> Reset</button></p>
+    </div>
+</div>
